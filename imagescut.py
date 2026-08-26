@@ -8,7 +8,7 @@ for filename in os.listdir(folder_path):
         img = Image.open(img_path)
         
         # 가로 500 픽셀로 설정 (적당한 크기와 화질 타협점)
-        width = 500 
+        width = 400
         ratio = (width / float(img.size[0]))
         height = int((float(img.size[1]) * float(ratio)))
         
